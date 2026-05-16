@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World v2.0 - CI/CD funcionando'
+    return 'Hello World v2.1 - Pipeline funcionando'
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
