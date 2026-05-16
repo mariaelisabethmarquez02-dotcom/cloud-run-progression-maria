@@ -16,7 +16,8 @@
 substitutions:
   _SERVICE_NAME: hello-cloudrun 
   _REGION: us-central1
-
+options:
+  logging: CLOUD_LOGGING_ONLY
 steps:
 
 ### Build
